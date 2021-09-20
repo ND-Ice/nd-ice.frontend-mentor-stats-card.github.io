@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <article
+        class="card animate__animated animate__zoomInRight animate__slow"
+      >
+        <!-- header -->
+        <div class="card__header">
+          <img
+            class="card__image card__image--mobile"
+            src="images/image-header-mobile.jpg"
+            alt=""
+          />
+          <img
+            class="card__image card__image--desktop"
+            src="images/image-header-mobile.jpg"
+            alt=""
+          />
+        </div>
+        <!-- body -->
+        <div class="wrapper">
+          <div class="card__body">
+            <h1 class="card__title">
+              get <span>Insights</span> that help your business grows
+            </h1>
+            <p class="card__desc">
+              discover the benefits of data analytics and make better decisions
+              regarding revenue, customer, experience and overall efficiency
+            </p>
+          </div>
+          <!-- footer -->
+          <div class="card__footer">
+            <div class="card__stats">
+              <span class="card__stats-heading">10k+</span>
+              <span class="card__label">companies</span>
+            </div>
+            <div class="card__stats">
+              <span class="card__stats-heading">314</span>
+              <span class="card__label">templates</span>
+            </div>
+            <div class="card__stats">
+              <span class="card__stats-heading">12m+</span>
+              <span class="card__label">queries</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
